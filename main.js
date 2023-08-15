@@ -6,7 +6,7 @@
         div.addEventListener('mouseenter',()=>div.style.backgroundColor='black');
         mainContainer.appendChild(div);
         for(let j=0;j<15;j++){
-            const div = document.createElement('div');
+            let div = document.createElement('div');
             div.classList.add('square');
             div.addEventListener('mouseenter',()=>div.style.backgroundColor='black');
             mainContainer.appendChild(div);
