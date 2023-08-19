@@ -1,30 +1,31 @@
 .square{
-    display: inline-flex;
+    display:inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 25px;
-    height: 25px;
+    width: 0%; /* this 0% so it can be changed based on the 100/value */
+    height: 0%;
     border: 1px solid black;
     align-content: flex-start;
     margin: 0%;
+    box-sizing: border-box;
 
 }
+
 body{
     margin: 0%;
     padding: 0%;
     line-height: 0%;
 
 }
-.mainContainer{
-    width: 450px;
-    height: 450pX;
+.container{
+    width: 600px;
+    height: 600pX;
+    padding: 0%;
+    margin: 0;
 }
-/*
-.square:hover{
-    background-color: black;
-} 
-*/
 .black{
     background-color: black;
 }
-
+.mainContainer{
+    display: flex;
+}
