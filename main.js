@@ -44,7 +44,6 @@ function newGrid(autoValue){
             alert('the old grid will stay until you choose a value that is equal or under 100');
             return clearGrid();
         }else if (value<100||value>0){
-            alert('bruh , what did you expect ?, the grid will be sad and run away , she needs values');
             currentGridSize = value;
             console.log(currentGridSize);
             return createNewGrid(value);       
