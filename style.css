@@ -4,28 +4,38 @@
     flex-wrap: wrap;
     width: 0%; /* this 0% so it can be changed based on the 100/value */
     height: 0%;
-    border: 1px solid black;
     align-content: flex-start;
     margin: 0%;
     box-sizing: border-box;
+    background-color: #DCD7C9;
 
 }
-
 body{
     margin: 0%;
     padding: 0%;
     line-height: 0%;
-
+    background-color: #2C3639;
+    color: #DCD7C9;
 }
-.container{
+.gridContainer{
     width: 600px;
     height: 600pX;
     padding: 0%;
     margin: 0;
 }
-.black{
-    background-color: black;
-}
+
 .mainContainer{
     display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.menuContainer{
+    background-color: #3F4E4F;
+    width: 500px;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    line-height: normal;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
 }
